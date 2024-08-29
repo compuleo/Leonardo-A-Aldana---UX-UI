@@ -1,0 +1,19 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+
+.suse-<uniquifier> {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: 003467;
+}
+
+.profesion {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
