@@ -39,3 +39,15 @@
   background-color: white;
   padding: 11px;
 }
+
+#coursera {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+#ipads {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
