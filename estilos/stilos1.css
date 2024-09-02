@@ -1,0 +1,68 @@
+/* Estilos para menu de navegacion*/
+
+.navbar {
+    display: flex; /* Distribuir el contenido de forma horizontal*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between; /* Espacio entre elementos*/
+    align-items: center; /* Alineacion elementos*/
+    background-color: rgb(204, 194, 182);
+    padding: 11px;
+}
+
+/* Etiqueta Logo*/
+.logo a {
+    color: blueviolet; /* color del texto del logo*/
+    text-decoration: none; /* elimina el subrayado*/
+    font-size: 24px; /*tamano del font*/
+}
+
+.nav-links {
+    list-style: none; /*elimina los puntos de la lista*/
+    display: flex;
+    gap: 15px; /*espacio entre enlaces*/
+}
+
+.nav-links li a {
+    color: rgb(2, 2, 52);
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.dropdown {
+    position: relative; /*posiciona el contenedor del dropdown*/
+
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /*ocupan el ancho del contenido*/
+}
+
+.dropdown-content {
+    display: none; /*oculta el contenido*/
+    position: absolute; /*posiciona el contenido de forma absoluta*/
+    background-color: aqua; /*color del contenido normal*/
+    min-width: 120px;
+    box-shadow: 8px 8px 16px rgb(157, 157, 157);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-links li a:hover {
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.search-bar {
+    background-color: rgb(175, 214, 214);
+    padding: 11px;
+}
+
+.fcc-btn {
+    background-color: rgb(85, 85, 131);
+    padding: 11px;
+    border: 4px;
+}
