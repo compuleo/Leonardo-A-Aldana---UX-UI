@@ -1,0 +1,67 @@
+body {
+    background-color: beige; /*Color de fondo*/
+    margin: 0; /*Margenes a 0*/
+    padding: 0%; /*eliminar los espacios*/
+}
+
+.container {
+    display: flex; /*organiza los elementos de manera flexible*/
+    flex-direction: column; /*columna*/
+    align-items: center;
+    gap: 20px; /*espacio entre articulos*/
+}
+
+section article {
+    transition: box-shadow 0.3s ease; 
+    background-color: #ffffff; /*color de fondo de la trajeta*/
+    margin: 16px 0;
+    border-radius: 8px; /*redondea las esquinas*/
+    padding: 22px 22px; /*espacio al borde*/
+    cursor: pointer; /*cambia el cursor a una mano*/
+}
+
+/*el estilo cuando el cursor sobre el elemento*/
+section article:hover {
+    box-shadow: 0 1.6px 6.4px rgb(50, 50, 50, 0.3);
+}
+
+section article h2, section article p {
+    margin: 16px;
+}
+
+footer {
+    background-color: rgb(224, 246, 229);
+    padding: 48;
+}
+
+footer section{
+    float: right;
+    padding: 22px;
+    margin: 0;
+}
+
+/*el estilo en reposo*/
+footer a{
+    transition: color 0.3s ease;
+    color: rgb(168, 106, 6);
+    text-decoration: none;
+}
+
+/*aqui tambien el estilo cuando el cursor sobre el elemento*/
+footer a:hover{
+    color: rgb(2, 24, 24);
+}
+
+/*el estilo del texto del footer*/
+header h2{
+    color: brown;
+}
+
+.parrafo-corrido {
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin:auto;
+    }
