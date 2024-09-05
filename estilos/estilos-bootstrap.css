@@ -1,0 +1,14 @@
+.d-block {
+    width: 100%;
+    height: 400Px;
+}
+
+.container-fluid {
+    background-color: rgb(250, 250, 139);
+
+}
+
+.navbar-brand {
+    color: blue;
+    font-size: large;
+}
