@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Landing Page - Leonardo A. Aldana</title>
+    <title>Leonardo A. Aldana / Diseno UX / UI</title>
     <link href="/bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet">
     <style>
         /* Estilos personalizados */
         body {
-            font-family: Arial, sans-serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         header {
-            background-color: #007bff;
+            background-color: #2468b2;
             color: white;
             padding: 20px;
         }
         section {
-            padding: 60px 0;
+            padding: 111px 0;
         }
+
+        /* Este es color del fondo resaltado */
         .bg-dark {
-            background-color: #343a40 !important;
-            color: white;
+            background-image: url(/images/Blue.jpg);
+            background-color: #010158; /* Used if the image is unavailable */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+            color: rgb(255, 255, 255);
         }
         .navbar-nav {
             flex-direction: column;
         }
         footer {
-            background-color: #343a40;
+            background-color: #020c17;
             color: white;
             text-align: center;
             padding: 20px 0;
@@ -43,7 +49,7 @@
     <!-- Logo lateral y menú de navegación -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-left">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="https://via.placeholder.com/80" alt="Logo" class="logo"></a>
+            <a class="navbar-brand" href="#"><img id="logo-header" src="/images/small_horse.jpg" alt="Logo" class="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -65,8 +71,9 @@
     <section id="about" class="text-center">
         <div class="container">
             <h2>About Me</h2>
-            <p>Soy Leonardo A. Aldana, un diseñador gráfico especializado en UX/UI con un enfoque en la creación de experiencias de usuario atractivas y eficientes.</p>
-            <img src="https://via.placeholder.com/300" alt="Leonardo A. Aldana" class="img-fluid">
+            <p>Graphic design professional with extensive experience in project management of graphic communication projects (print and electronic) for different types of industries such as: real estate, pharmaceutical, services, etc...
+                Knowledge of graphic design software such as Adobe suite (Illustrator, Photoshop, Premiere and Indesign). Experience in web design and layout: Figma, Adobe XD, Wordpress (Elementor, Divi, Woocomerce and Beaver Builder).</p>
+            <img id="sun" src="/images/sol-leonardo-aldana.png" alt="Leonardo A. Aldana" class="img-fluid">
         </div>
     </section>
 
@@ -77,15 +84,27 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <img src="https://via.placeholder.com/150" alt="Experiencia 1" class="img-fluid mb-3">
-                    <p>Más de X años trabajando en diseño UX/UI en diversas industrias.</p>
+                    <p>Digital Director
+                        MiAddvantage - Jacksonville, Florida. USA
+                        January 2016 - Currently 
+                        Development of digital projects: Web design and digital marketing campaigns according to the objectives established by the client and the agency.</p>
                 </div>
                 <div class="col-md-4">
                     <img src="https://via.placeholder.com/150" alt="Experiencia 2" class="img-fluid mb-3">
-                    <p>Colaboración con equipos de desarrollo para crear interfaces optimizadas.</p>
+                    <p>Senior Graphic Designer	
+                        EstrenarVivienda - Bogotá D.C. - Colombia
+                        October 2005 - Currently 
+                        Graphic design for the monthly print edition of the publication EstrenarVivienda - specialized in the promotion of new housing in Colombia. Design and implementation of digital campaigns for the housing portal. - estrenarvivienda.com -.</p>
                 </div>
                 <div class="col-md-4">
                     <img src="https://via.placeholder.com/150" alt="Experiencia 3" class="img-fluid mb-3">
-                    <p>Implementación de prácticas de accesibilidad para mejorar la experiencia del usuario.</p>
+                    <p>Freelance Graphic Designer	
+                        Bogotá D.C. - Miami Fl
+                        January 2005 - December 2023
+                        Graphic design, digital marketing and digital illustration for different clients on a freelance basis.
+                        Covidien. Tyco Health Care Colombia (Colombia - USA)
+                        • Corporate graphic designer 
+                        • Development of print and digital campaigns for the company’s business lines (medical devices, sutures, respiratory monitoring, vascular therapy and pharmaceuticals).</p>
                 </div>
             </div>
         </div>

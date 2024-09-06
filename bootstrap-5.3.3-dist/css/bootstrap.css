@@ -181,6 +181,15 @@
   --bs-form-invalid-border-color: #ea868f;
 }
 
+/* Sol Solecito */
+#sun {
+  width: 333px;
+}
+
+#logo-header {
+  width: 66;
+}
+
 *,
 *::before,
 *::after {
